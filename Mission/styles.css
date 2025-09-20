@@ -1,35 +1,44 @@
-* {
+body {
     font-family: 'Times New Roman', Times, serif;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    border: thin solid grey;
 }
-
+.content {
+    width:600px;
+    margin-left: auto;
+    margin-right: auto;
+}
 header {
     text-align: center;
+    letter-spacing: 0.2rem;
+}
+
+
+h1 {
+    font-size: 40px;
+    padding-top: 70px;
 }
 h2 {
     color: #006EB6;
+    font-size: 16px;
+    border-bottom: thin solid lightgrey;
+}
+p, li {
+    text-align: left;
+    line-height: 1.5;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-p {
-    text-align: left;
-    font-size: 20px;
-}
-p em {
-  display: block;       /* makes the <em> behave like its own paragraph */
-  font-style: italic;
-  text-align: left;
-  margin-left: -3px;
-  padding-left: 0;
-}
-.uni-does {
-    text-align: left;
-    font-size: 20px;
-}
 
 .logo {
     width: 150px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 40px;
 }
