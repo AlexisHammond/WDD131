@@ -9,12 +9,14 @@ if (themeValue === "dark") {
 // add the dark class to the body
     document.body.classList.add("dark");
 // change the source of the logo img to point to the white logo.
+    let logo = document.querySelector(".logo img");
     logo.setAttribute("src", "images/byui-logo_white.png");
 // otherwise
 } else {
 // remove the dark class
     document.body.classList.remove("dark");
 // make sure the logo src is the blue logo.
+    let logo = document.querySelector(".logo img");
     logo.setAttribute("src", "images/byui-logo_blue.webp");
 }
 }
