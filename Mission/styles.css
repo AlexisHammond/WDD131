@@ -42,3 +42,11 @@ p, li {
     padding-top: 30px;
     padding-bottom: 40px;
 }
+
+body.dark {
+    background-color: #333;
+    color: #FFFFFF;
+}
+.dark h2 {
+color: #4F9ACF;
+}
